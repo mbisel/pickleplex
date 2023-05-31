@@ -1,0 +1,30 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Teko:wght@600&display=swap');
+
+//logo
+@media (prefers-reduced-motion: no-preference) {
+    .navbar-brand img {
+      animation: App-logo-spin infinite 20s linear;
+      height: 3rem;
+      margin: .5em;
+  
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.navbar-brand {
+  font-family: 'Teko', sans-serif;
+  display:inline;
+  font-size: 36px;
+  color: $secondary;
+}
+
+
